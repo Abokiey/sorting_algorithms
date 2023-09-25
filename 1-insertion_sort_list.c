@@ -2,8 +2,8 @@
 
 /**
  * swap_node - swaps nodes
- * node_1: first node
- * node_2: second node
+ * @node_1: first node
+ * @node_2: second node
  * @head: head of the list
  */
 void swap_node(listint_t **head, listint_t *node_1, listint_t *node_2)
@@ -27,12 +27,11 @@ void swap_node(listint_t **head, listint_t *node_1, listint_t *node_2)
 }
 
 /**
- *
  * insertion_sort_list - insertion sort
  *
  * @list: doubly linked list
  */
- void insertion_sort_list(listint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 	listint_t *node, *temp;
 
