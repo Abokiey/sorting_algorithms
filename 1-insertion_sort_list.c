@@ -44,7 +44,7 @@ void swap_node(listint_t **head, listint_t *node_1, listint_t *node_2)
 		for (; node && node->prev && node->n < node->prev->n;
 			 node = node->prev)
 		{
-			tmp = node->prev;
+			temp = node->prev;
 			swap_node(list, temp, node);
 			print_list(*list);
 			node = node->next;
